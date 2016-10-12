@@ -12,6 +12,10 @@
 		28AE07E51DAD48F000D172A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AE07E31DAD48F000D172A9 /* Main.storyboard */; };
 		28AE07E71DAD48F000D172A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE07E61DAD48F000D172A9 /* Assets.xcassets */; };
 		28AE07EA1DAD48F000D172A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AE07E81DAD48F000D172A9 /* LaunchScreen.storyboard */; };
+		28AE07F21DAD4D1000D172A9 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE07F11DAD4D1000D172A9 /* Pokemon.swift */; };
+		28AE07F41DAD537000D172A9 /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE07F31DAD537000D172A9 /* PokemonController.swift */; };
+		28AE07F61DAD548B00D172A9 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE07F51DAD548B00D172A9 /* NetworkController.swift */; };
+		28AE07F81DAD73AD00D172A9 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE07F71DAD73AD00D172A9 /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		28AE07E61DAD48F000D172A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AE07E91DAD48F000D172A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28AE07EB1DAD48F000D172A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AE07F11DAD4D1000D172A9 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		28AE07F31DAD537000D172A9 /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
+		28AE07F51DAD548B00D172A9 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		28AE07F71DAD73AD00D172A9 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				28AE07DF1DAD48F000D172A9 /* AppDelegate.swift */,
 				28AE07E11DAD48F000D172A9 /* ViewController.swift */,
 				28AE07E31DAD48F000D172A9 /* Main.storyboard */,
+				28AE07F11DAD4D1000D172A9 /* Pokemon.swift */,
+				28AE07F31DAD537000D172A9 /* PokemonController.swift */,
+				28AE07F71DAD73AD00D172A9 /* ImageController.swift */,
+				28AE07F51DAD548B00D172A9 /* NetworkController.swift */,
 				28AE07E61DAD48F000D172A9 /* Assets.xcassets */,
 				28AE07E81DAD48F000D172A9 /* LaunchScreen.storyboard */,
 				28AE07EB1DAD48F000D172A9 /* Info.plist */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AE07F61DAD548B00D172A9 /* NetworkController.swift in Sources */,
 				28AE07E21DAD48F000D172A9 /* ViewController.swift in Sources */,
 				28AE07E01DAD48F000D172A9 /* AppDelegate.swift in Sources */,
+				28AE07F21DAD4D1000D172A9 /* Pokemon.swift in Sources */,
+				28AE07F41DAD537000D172A9 /* PokemonController.swift in Sources */,
+				28AE07F81DAD73AD00D172A9 /* ImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
